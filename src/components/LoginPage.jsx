@@ -66,7 +66,7 @@ const LoginPage = () => {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <div className="form-group remember-me">
+            <div className="remember-me">
               <input type="checkbox" id="rememberMe" />
               <label htmlFor="rememberMe">Remember Me</label>
             </div>
