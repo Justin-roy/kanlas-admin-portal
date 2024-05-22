@@ -1,0 +1,30 @@
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f6f6f6;
+}
+.image-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-section h2 {
+  margin: 10px;
+}
+
+.header-section button {
+  margin: 0 3rem;
+  padding: 12px 2rem;
+  background-color: #4a148c;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.header-section button:hover {
+  background-color: #3a0c7a;
+}

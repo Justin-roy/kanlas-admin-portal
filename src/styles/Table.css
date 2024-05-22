@@ -1,0 +1,80 @@
+.table-container {
+  margin-top: 3rem;
+  overflow-x: auto;
+}
+
+table {
+  width: 60%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.204);
+  border-radius: 10px;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+  padding: 1rem;
+  background-color: #f6f6f6;
+  color: #717171;
+  text-align: left;
+  font-weight: 400;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+}
+
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+
+tr:hover {
+  background-color: rgba(213, 213, 213);
+}
+
+td {
+  padding: 1rem;
+  text-align: left;
+  background-color: white;
+}
+
+.avatar-img {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+}
+.amount-section {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 5px;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  background-color: #bef7e444;
+  font-size: 14px;
+}
+
+.btn-container {
+  margin: auto;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn-container button {
+  border: none;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-container button:disabled {
+  cursor: not-allowed;
+  background-color: rgba(229, 229, 229);
+  color: rgb(0, 0, 0, 0.269);
+}

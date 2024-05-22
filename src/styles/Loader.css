@@ -1,0 +1,27 @@
+/* Center the loader vertically and horizontally */
+.vstack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+/* Spinner styles */
+.spinner {
+  width: 64px; /* Adjust size as needed */
+  height: 64px;
+  border: 8px solid rgba(0, 0, 0, 0.1);
+  border-left-color: #000;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+/* Animation for spinner */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
